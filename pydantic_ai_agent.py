@@ -11,6 +11,7 @@ from pydantic_ai import Agent, ModelRetry, RunContext
 from pydantic_ai.models.openai import OpenAIModel
 from supabase import Client
 from typing import List
+from openai import AsyncOpenAI
 
 load_dotenv()
 
